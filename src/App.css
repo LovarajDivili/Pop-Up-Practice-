@@ -1,0 +1,93 @@
+* {
+margin: 0px;
+}
+.container {
+background-color: currentColor;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.heading {
+color: green;
+font-style: 14px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button {
+background-color: blue;
+border: 2px solid black;
+border-radius: 6px;
+color: black;
+font-weight: bold;
+font-size: 20px;
+height: 40px;
+width: 100px;
+}
+
+.bg_container {
+background-color: rgb(255, 127, 255);
+min-height: 60vh;
+width: 55%;
+border: 2px solid green;
+border-radius: 10px;
+margin: 20px;
+padding: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.popup_container {
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+font-size: 10px;
+margin-bottom: 30px;
+
+}
+h1{
+margin-right: 100px;
+}
+p{
+color: blue;
+font-size: 16px;
+}
+span {
+color:green;
+font-size: 19px;
+font-weight: 700;
+}
+
+.con {
+color:green;
+font-size: 29px;
+font-weight: 700;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.buttonPage {
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 20px;
+margin-top: 30px;
+}
+.close {
+margin-right: 100px;
+border: 2px solid black;
+background-color:red;
+height: 30px;
+width: 100px;
+border-radius: 8px;
+}
+
+.continue {
+margin-left: 100px;
+border: 2px solid black;
+background-color:green;
+height: 30px;
+width: 100px;
+border-radius: 8px;
+}
