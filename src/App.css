@@ -2,92 +2,62 @@
 margin: 0px;
 }
 .container {
-background-color: currentColor;
+background-image: url("https://i.pinimg.com/564x/01/fb/a3/01fba3da34283bfbb626ad5372902d79.jpg");
 min-height: 100vh;
+background-size: cover;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: flex-start;
+padding: 20px;
 }
-
-.heading {
+h1{
 color: green;
-font-style: 14px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.button {
-background-color: blue;
-border: 2px solid black;
-border-radius: 6px;
-color: black;
-font-weight: bold;
-font-size: 20px;
-height: 40px;
-width: 100px;
-}
-
-.bg_container {
-background-color: rgb(255, 127, 255);
-min-height: 60vh;
-width: 55%;
-border: 2px solid green;
-border-radius: 10px;
-margin: 20px;
-padding: 25px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.popup_container {
-display: flex;
-justify-content: space-between;
-align-items: stretch;
-font-size: 10px;
+font-weight: 800;
+font-family: 'Courier New', Courier, monospace;
 margin-bottom: 30px;
 
 }
-h1{
-margin-right: 100px;
+h2{
+color: red;
+font-weight: 800;
+text-align: end;
+margin-left: 590px;
+font-size: 40px;
+padding: 10px;
+border: 3px solid blue;
+border-radius: 50px;
+padding-right: 30px;
+width: 40px;
+background-color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p{
-color: blue;
-font-size: 16px;
-}
-span {
-color:green;
-font-size: 19px;
-font-weight: 700;
-}
-
-.con {
-color:green;
-font-size: 29px;
-font-weight: 700;
-margin-top: 20px;
+font-weight: 900;
 margin-bottom: 20px;
+
 }
-.buttonPage {
+.b_container {
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
-margin: 20px;
 margin-top: 30px;
 }
-.close {
-margin-right: 100px;
-border: 2px solid black;
-background-color:red;
-height: 30px;
-width: 100px;
+button {
+background-color: green;
 border-radius: 8px;
+border: 2px solid black;
+color: aliceblue;
+height: 40px;
+padding: 7px;
+margin-right: 50px;
 }
-
-.continue {
-margin-left: 100px;
-border: 2px solid black;
-background-color:green;
-height: 30px;
-width: 100px;
+.setCounter {
+background-color:red;
 border-radius: 8px;
+border: 3px solid black;
+color: aliceblue;
+height: 40px;
+padding: 7px;
+margin-left: 50px;
 }

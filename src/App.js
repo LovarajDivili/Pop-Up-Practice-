@@ -1,42 +1,28 @@
 import './App.css'
+// import Counter from './components/Counter'
 import {useState} from 'react'
 
 
-
 const App = () => {
-    const [onclick,setClick] = useState(false);
-
-    const PopupFunction = () => {
-      setClick(!onclick)
-    }
+    const [counter, setCounter] = useState(0);
     return(
         <div className="container">
-            <h1 className="heading">Click the Button. To Show the PopUp....!</h1>
-        <button className="button"
-            onClick={PopupFunction}
+            <h1>Hello...! EveryOne</h1>
+            <p>Click the below buttons.                 
+            <br/> And <br/> Increasing the Counter value.                
+            <br/>Decreasing the counter value. <br/> HURRYUP.....!</p>
+            <h2>{counter}</h2>
+            <div className="b_container">
+                <button
+            onClick={() => { setCounter (counter + 1) }}
             >
-            Click
-        </button>
-
-        {onclick && (
-            <div className="bg_container">
-        <div className="popup_container">
-            <h1>This is a Skill Progress Page..!</h1>
-            <button  onClick={PopupFunction}>X</button>
+            Increase Counter</button>
+            <button className="setCounter"
+            onClick={() => { setCounter (counter - 1) }}
+            >
+            Decrease Counter</button>
+            </div>
         </div>
-        <p>You Programing Skills tooo good..! and You arn <span>9.6/10 points</span></p>
-        <h1 className="con">Congratulations</h1>
-        <div className="buttonPage">
-        <button className="close" 
-        onClick={PopupFunction}
-        >
-        Close
-        </button>
-        <button className="continue">Continue</button>
-        </div>
-        </div>
-        )}
-    </div>
     )
 }
 
